@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.popular-repos-app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.popular-repos-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-repos-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.popular-repos-languages-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-repos-data-list {
+  max-width: 1140px;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-repos-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-repos-failure-image {
+  height: 180px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-repos-failure-image {
+    height: 390px;
+    width: 530px;
+  }
+}
+
+.popular-repos-failure-heading {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-repos-failure-heading {
+    font-size: 48px;
+  }
+}
